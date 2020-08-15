@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Shopping basket</string>
+    <string name="string1">Shop summer women midi dress 2020 Gothic print sleevless ladies</string>
+    <string name="string2">LKR 1890.00</string>
+    <string name="string3">delivery-LKR 140.00</string>
+    <string name="string4">update</string>
+    <string name="string5">Sub total</string>
+    <string name="string10">bobbibrickaboutique</string>
+    <string name="string7">Harryshew1</string>
+    <string name="string8">LKR 2000.00</string>
+    <string name="string9">TOMMY HILFIGER Womens Black Floral Print Velvet Above </string>
+    <string name="string11">2 </string>
+    <string name="string12">3 </string>
+    <string name="string13">delivery-LKR 190.00</string>
+    <string name="string14">190.00</string>
+    <string name="string15">140.00</string>
+    <string name="string16">Quantity</string>
+    <string name="string17">Remove</string>
+    <string name="string18">Price</string>
+    <string name="string19"> Delivery charges</string>
+    <string name="string20"> Qty</string>
+    <string name="string21">2000.00</string>
+    <string name="string22">1890.00</string>
+    <string name="string23"> 6570.00</string>
+    <string name="string24"> 4060.00</string>
+    <string name="string25">Items</string>
+    <string name="string26">GO TO CHECKOUT</string>
+
+
+
+
+</resources>
