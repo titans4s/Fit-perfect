@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FITPERFECT</string>
+    <string name="s1">First Name</string>
+    <string name="s2">Last Name</string>
+    <string name="s3">Email</string>
+    <string name="s4">Password</string>
+    <string name="s5">Confirm Password</string>
+    <string name="s6">Create Account</string>
+    <string name="s7">Customer Registration</string>
+
+
+
+
+
+
+</resources>
