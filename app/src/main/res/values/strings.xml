@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">FIT PERFECT</string>
+
+    <string name="menhd"><b><u>KID\'S FASHION</u></b></string>
+
+    <string name="kitem1">Zunie Scallop Scuba Girls Toddler Sleeveless Dress Pink Size 4 New </string>
+    <string name="kitem1pri"><b>LKR1850.00</b></string>
+    <string name="kitem1ship">LKR450.00 shipping</string>
+
+    <string name="kitem2">FORNITE HOODY HOODIE Top Boys Gamer Gaming Battle Royale Kids Childs Boys Girls</string>
+    <string name="kitem2pri"><b>LKR2300.00</b></string>
+    <string name="kitem2ship">LKR500.00 shipping</string>
+
+    <string name="kitem3">Flower Girls Long Dress Wedding Bridesmaid Party Prom Gown Pageant Princess Maxi</string>
+    <string name="kitem3pri"><b>LKR990.00</b></string>
+    <string name="kitem3ship">LKR300.00 shipping</string>
+
+    <string name="kitem4">Princess Girls Sequins Bridesmaid Wedding Party Tutu Dress Kids Baby Prom Gown</string>
+    <string name="kitem4pri"><b>LKR1600.00</b></string>
+    <string name="kitem4ship">LKR470.00 shipping</string>
+
+    <string name="kitem5">Crewcuts Plaid Dress Size 10</string>
+    <string name="kitem5pri"><b>LKR2900.00</b></string>
+    <string name="kitem5ship">Free shipping</string>
+
+    <string name="kitem6">Kids Girls Down Padded Pants Winter Warm Snow Ski Sports Sweatpants Trousers</string>
+    <string name="kitem6pri"><b>1390.00</b></string>
+    <string name="kitem6ship">LKR470.00 shipping</string>
+
+    <string name="kitem7">Designer Red Plaid Tartan Tulle Skirt Girls Size 7-8 A-line Kids Childrens CHOP</string>
+    <string name="kitem7pri"><b>1670.00</b></string>
+    <string name="kitem7ship">LKR470.00 shipping</string>
+
+</resources>
