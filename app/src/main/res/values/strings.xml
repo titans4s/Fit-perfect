@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FITPERFECT</string>
+    <string-array  name="names">
+        <item>Pink</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+
+    <string-array  name="Todo">
+        <item>s</item>
+        <item>Xs</item>
+        <item>M</item>
+        <item>L</item>
+
+    </string-array>
+    <string name="t1">Kid dress flower wedding formal princess</string>
+    <string name="t2">Delivery charges-LKR 150</string>
+    <string name="t3">Price- LKR 1290</string>
+    <string name="t4">Size</string>
+    <string name="t5">Quantity</string>
+    <string name="t6">Color</string>
+    <string name="t7">GO TO CHECKOUT</string>
+    <string name="t8">ADD TO BASKET</string>
+
+</resources>
