@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fit perfect</string>
+    <string name="aucloth"> ADD / UPDATE </string>
+    <string name="mfasion">Kid\'s Fashion</string>
+    <string name="title">Title  </string>
+    <string name="Colour">Colour </string>
+    <string name="Category">Category</string>
+    <string name="condition">Condition</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Delivery">Delivery Charges</string>
+    <string name="Img"> Upload Image</string>
+    <string name="price">Price</string>
+    <string name="ad">Add</string>
+    <string name="up">Update</string>
+</resources>
