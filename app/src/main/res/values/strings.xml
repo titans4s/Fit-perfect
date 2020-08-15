@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FITPERFECT</string>
+    <string name="s1">Title</string>
+    <string name="s2">Color</string>
+    <string name="s3">Qty</string>
+    <string name="s4">Price</string>
+    <string name="s5">Delivery charges</string>
+    <string name="s6">Action</string>
+    <string name="s7">Kids\'s Fashion</string>
+    <string name="s8">Add</string>
+    <string name="s9">Edit</string>
+    <string name="s10">Delete</string>
+
+</resources>
