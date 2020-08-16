@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">FIT PERFECT</string>
+    //activity1
+    <string name="deliveryhd"><b><u>Add Delivery Details</u></b></string>
+
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="city">City</string>
+    <string name="address">Address</string>
+    <string name="btn1">Pay</string>
+    <string name="btn2">Cancel</string>
+
+    <string name="prompt1"> District </string>
+    <string-array name="list1">
+        <item>Colombo</item>
+        <item>Kandy</item>
+        <item>Matale</item>
+        <item>Nuwara-Eliya</item>
+        <item>Galle</item>
+        <item>Jaffna</item>
+        <item>Batticalo</item>
+        <item>Gampaha</item>
+    </string-array>
+
+    <string-array name="list2">
+        <item>Centeral</item>
+        <item>North</item>
+        <item>South</item>
+        <item>Easte</item>
+        <item>West</item>
+        <item>Uva</item>
+        <item>Sabaragamuwa</item>
+        <item>North-Centeral</item>
+        <item>North-Western</item>
+    </string-array>
+
+
+    //activity2
+
+    <string name="menhd"><b><u>ACCESSORIES</u></b></string>
+
+    <string name="aitem1">Women Double Ankle Bracelet 925 Silver Anklet Foot Jewelry Girl\'s Beach Chain US</string>
+    <string name="aitem1pri"><b>LKR640.00</b></string>
+    <string name="aitem1ship">LKR150.00 shipping</string>
+
+    <string name="aitem2">Invicta 24760 Men\'s Pro Diver Automatic Black Dial Steel Bracelet Dive Watch </string>
+    <string name="aitem2pri"><b>LKR2440.00</b></string>
+    <string name="aitem2ship">LKR500.00 shipping</string>
+
+    <string name="aitem3">Fashion Long Tassel Chain Earrings Women Crystal Teardrop Drop Dangle Jewelry</string>
+    <string name="aitem3pri"><b>LKR730.00</b></string>
+    <string name="aitem3ship">LKR100.00 shipping</string>
+
+    <string name="aitem4"> Vintage Natural Aquamarine Gemstone Silver Chain Pendant Necklace Jewelry Gift</string>
+    <string name="aitem4pri"><b>LKR900.00</b></string>
+    <string name="aitem4ship">LKR170.00 shipping</string>
+
+    <string name="aitem5">Women Head Band Headwear Fashion DIY Princess Hair Band Headwrap</string>
+    <string name="aitem5pri"><b>LKR580.00</b></string>
+    <string name="aitem5ship">Free shipping</string>
+
+    <string name="aitem6"> New Gold Butterfly Necklace Pendant Clavicle Choker Crystal Chain Women Jewelry</string>
+    <string name="aitem6pri"><b>1100.00</b></string>
+    <string name="aitem6ship">LKR470.00 shipping</string>
+
+    <string name="aitem7">Women Fashion Crystal Pendant Necklace Charm Silver Plated Chain Jewelry Gift</string>
+    <string name="aitem7pri"><b>670.00</b></string>
+    <string name="aitem7ship">LKR120.00 shipping</string>
+
+
+</resources>
