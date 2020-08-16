@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">FIT PERFECT</string>
+//activity1
+    <string name="deliveryhd"><b><u>Add Delivery Details</u></b></string>
+
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="city">City</string>
+    <string name="address">Address</string>
+    <string name="btn1">Pay</string>
+    <string name="btn2">Cancel</string>
+
+    <string name="prompt1"> District </string>
+    <string-array name="list1">
+        <item>Colombo</item>
+        <item>Kandy</item>
+        <item>Matale</item>
+        <item>Nuwara-Eliya</item>
+        <item>Galle</item>
+        <item>Jaffna</item>
+        <item>Batticalo</item>
+        <item>Gampaha</item>
+    </string-array>
+
+    <string-array name="list2">
+        <item>Centeral</item>
+        <item>North</item>
+        <item>South</item>
+        <item>Easte</item>
+        <item>West</item>
+        <item>Uva</item>
+        <item>Sabaragamuwa</item>
+        <item>North-Centeral</item>
+        <item>North-Western</item>
+    </string-array>
+
+
+ //activity2
+
+    <string name="menhd"><b><u>MEN\'S FASHION</u></b></string>
+
+        <string name="item1">KSTUN Men\'s Jeans 2020 Summer Denim Pants
+                    Slim Straight Dark Blue Regular Fit Leisure Long Trousers Famous
+                    Brand Jean Men Hombre</string>
+            <string name="item1pri"><b>LKR1850.00</b></string>
+            <string name="item1ship">LKR450.00 shipping</string>
+
+    <string name="item2">Korean Men\'s Clothing Fashion 2019 Summer Striped Shirt Men Half Sleeve Turn Down Collar Slim Fit Casual Shirts
+    </string>
+        <string name="item2pri"><b>LKR2300.00</b></string>
+        <string name="item2ship">LKR500.00 shipping</string>
+
+    <string name="item3">Pioneer Camp summer short t shirt men brand clothing high quality pure cotton male t shirt
+    </string>
+        <string name="item3pri"><b>LKR990.00</b></string>
+        <string name="item3ship">LKR300.00 shipping</string>
+
+    <string name="item4"> Men\'s Clothing t shirt 95% Bamboo Fiber Short Sleeve Soft Night Shirts Undershirt Underwear Women V-neck tshirt camisetas hombre
+    </string>
+        <string name="item4pri"><b>LKR1600.00</b></string>
+        <string name="item4ship">LKR470.00 shipping</string>
+
+    <string name="item5">  Winter Men\'s Clothing Brown Pullover Sweater Casual Soft Comfortable Thick Warmer Sweater coat Hand-knitted Cool Men\'s Sweater
+    </string>
+        <string name="item5pri"><b>LKR2900.00</b></string>
+        <string name="item5ship">Free shipping</string>
+
+    <string name="item6"> Summer Mens Fashion Shirts Black White Solid Brand Clothing Short Sleeve Pocket Man\'s Slim Fit Clothes Plus Size Tops-in Casual Shirts from Men\'s Clothing and Accessories
+    </string>
+        <string name="item6pri"><b>1390.00</b></string>
+        <string name="item6ship">LKR470.00 shipping</string>
+
+    <string name="item7"> Summer New Men\'s Linen Shirt 2020 Fashion Casual Male Short Sleeve Flower Shirt Large Size Brand Men\'s Clothing 5XL 6XL 7XL
+    </string>
+        <string name="item7pri"><b>1670.00</b></string>
+        <string name="item7ship">LKR470.00 shipping</string>
+
+
+</resources>

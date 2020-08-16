@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity2">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt2"
+            style="@android:style/Widget.DeviceDefault.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_subrayada"
+            android:text="@string/menhd"
+            android:textAlignment="viewStart"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.112"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.046" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="417dp"
+            android:layout_height="103dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintVertical_bias="0.143"
+            tools:ignore="MissingConstraints,UnknownId">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/trouser" />
+
+            <LinearLayout
+                android:layout_width="292dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="317dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:text="@string/item1"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    tools:layout_editor_absoluteX="109dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="@string/item1pri"
+                    android:textAlignment="center"
+                    android:textColor="@color/price"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="431dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="3"
+                    android:text="@string/item1ship"
+                    android:textAlignment="textEnd"
+                    android:textColor="?android:attr/textColorHint"
+                    android:textSize="10sp"
+                    android:translationX="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="449dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="417dp"
+            android:layout_height="103dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintVertical_bias="0.143"
+            tools:ignore="MissingConstraints,UnknownId">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/shirt" />
+
+            <LinearLayout
+                android:layout_width="292dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="317dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:text="@string/item2"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    tools:layout_editor_absoluteX="109dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="@string/item2pri"
+                    android:textAlignment="center"
+                    android:textColor="@color/price"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="431dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="3"
+                    android:text="@string/item2ship"
+                    android:textAlignment="textEnd"
+                    android:textColor="?android:attr/textColorHint"
+                    android:textSize="10sp"
+                    android:translationX="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="449dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="417dp"
+            android:layout_height="103dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintVertical_bias="0.143"
+            tools:ignore="MissingConstraints,UnknownId">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/tshirt" />
+
+            <LinearLayout
+                android:layout_width="292dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="317dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:text="@string/item3"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    tools:layout_editor_absoluteX="109dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="@string/item3pri"
+                    android:textAlignment="center"
+                    android:textColor="@color/price"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="431dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="3"
+                    android:text="@string/item3ship"
+                    android:textAlignment="textEnd"
+                    android:textColor="?android:attr/textColorHint"
+                    android:textSize="10sp"
+                    android:translationX="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="449dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="417dp"
+            android:layout_height="103dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintVertical_bias="0.143"
+            tools:ignore="MissingConstraints,UnknownId">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/tshirt2" />
+
+            <LinearLayout
+                android:layout_width="292dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="317dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:text="@string/item4"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    tools:layout_editor_absoluteX="109dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="@string/item4pri"
+                    android:textAlignment="center"
+                    android:textColor="@color/price"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="431dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="3"
+                    android:text="@string/item4ship"
+                    android:textAlignment="textEnd"
+                    android:textColor="?android:attr/textColorHint"
+                    android:textSize="10sp"
+                    android:translationX="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="449dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="417dp"
+            android:layout_height="103dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintVertical_bias="0.143"
+            tools:ignore="MissingConstraints,UnknownId">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/jersey" />
+
+            <LinearLayout
+                android:layout_width="292dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="317dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:text="@string/item5"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    tools:layout_editor_absoluteX="109dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="@string/item5pri"
+                    android:textAlignment="center"
+                    android:textColor="@color/price"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="431dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="3"
+                    android:text="@string/item5ship"
+                    android:textAlignment="textEnd"
+                    android:textColor="?android:attr/textColorHint"
+                    android:textSize="10sp"
+                    android:translationX="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="449dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="417dp"
+            android:layout_height="103dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintVertical_bias="0.143"
+            tools:ignore="MissingConstraints,UnknownId">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/shirt2" />
+
+            <LinearLayout
+                android:layout_width="292dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="317dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:text="@string/item6"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    tools:layout_editor_absoluteX="109dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="@string/item6pri"
+                    android:textAlignment="center"
+                    android:textColor="@color/price"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="431dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="3"
+                    android:text="@string/item6ship"
+                    android:textAlignment="textEnd"
+                    android:textColor="?android:attr/textColorHint"
+                    android:textSize="10sp"
+                    android:translationX="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="449dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout12"
+            android:layout_width="417dp"
+            android:layout_height="103dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintVertical_bias="0.143"
+            tools:ignore="MissingConstraints,UnknownId">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/shirt3" />
+
+            <LinearLayout
+                android:layout_width="292dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="317dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:text="@string/item7"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    tools:layout_editor_absoluteX="109dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="@string/item7pri"
+                    android:textAlignment="center"
+                    android:textColor="@color/price"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="431dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="3"
+                    android:text="@string/item7ship"
+                    android:textAlignment="textEnd"
+                    android:textColor="?android:attr/textColorHint"
+                    android:textSize="10sp"
+                    android:translationX="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="449dp" />
+
+
+            </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
