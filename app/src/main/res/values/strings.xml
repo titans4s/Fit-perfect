@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Fit Perfect</string>
+    <string name="Topic1">Checkout</string>
+    <string name="Itm1nm">Parker Green Sparkly Top</string>
+    <string name="Itm2nm">Printed Midi Sleeve Dress</string>
+    <string name="qty1">Qty: 1</string>
+    <string name="qty2">Qty: 2</string>
+    <string name="price1">LKR: 1200.00</string>
+    <string name="price2">LKR: 3200.00</string>
+    <string name="clr1">Color: black</string>
+    <string name="clr2">Color: pink</string>
+    <string name="size1">Size: XL</string>
+    <string name="Size2">Size: L</string>
+    <string name="tot">Order Total =                   LKR: 4400.00</string>
+    <string name="Address">66/67  prime rd,  kandy.        20000</string>
+    <string name="ad1">Delivary Details</string>
+    <string name="card">Add Card Details</string>
+    <string name="crdno">Card Number</string>
+    <string name="crdexp">Expiration Date</string>
+    <string name="crdsecu">Security Code</string>
+    <string name="pay">Confirm Pay</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Heading1">Admin Login</string>
+    <string name="Heading2">Customer Login</string>
+    <string name="log">Login</string>
+    <string name="aucloth"> ADD / UPDATE </string>
+    <string name="wfasion">Women\'s Fashion</string>
+    <string name="title">Title  </string>
+    <string name="Colour">Colour </string>
+    <string name="Category">Category</string>
+    <string name="condition">Condition</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Delivery">Delivery Charges</string>
+    <string name="Img"> Upload Image</string>
+    <string name="price">Price</string>
+    <string name="ad">Add</string>
+    <string name="up">Update</string>
+
+
+
+</resources>
