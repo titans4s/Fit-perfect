@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">FIT PERFECT</string>
+
+
+
+    <string name="menhd"><b><u>WOMEN\'S FASHION</u></b></string>
+
+    <string name="witem1">Lulu\'s Women\'s Dress Rehearsal Peach Pink A-Line Skater Mini Dress Size X-Small</string>
+    <string name="witem1pri"><b>LKR2400.00</b></string>
+    <string name="witem1ship">LKR450.00 shipping</string>
+
+    <string name="witem2">Vintage Women\’s ADIDAS Small Logo Zip Up Hoodie Sweatshirt Blue 16</string>
+    <string name="witem2pri"><b>LKR3400.00</b></string>
+    <string name="witem2ship">LKR500.00 shipping</string>
+
+    <string name="witem3">Levi\'s 312 Shaping Slim Burning Rays Light Blue Women\'s Jeans UK 10 US W28 L34</string>
+    <string name="witem3pri"><b>LKR3400.00</b></string>
+    <string name="witem3ship">LKR300.00 shipping</string>
+
+    <string name="witem4">Kay Unger New York Black Ruched Gathered V-Neck Cocktail Party Dress Size 2</string>
+    <string name="witem4pri"><b>LKR2500.00</b></string>
+    <string name="witem4ship">LKR470.00 shipping</string>
+
+    <string name="witem5">Dress summer women\'s beach Party Sleeveless Dresses Evening Casual Women Long</string>
+    <string name="witem5pri"><b>LKR2350.00</b></string>
+    <string name="witem5ship">Free shipping</string>
+
+    <string name="witem6">Dress beach summer Cocktail Long Sleeve Maxi Women Party Fashion Womens V Neck</string>
+    <string name="witem6pri"><b>2800.00</b></string>
+    <string name="witem6ship">LKR470.00 shipping</string>
+
+    <string name="witem7">Sparkle Embellished Ombre Overlay Top - Women Roman Originals</string>
+    <string name="witem7pri"><b>1670.00</b></string>
+    <string name="witem7ship">LKR470.00 shipping</string>
+
+
+</resources>

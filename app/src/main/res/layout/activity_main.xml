@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt2"
+            style="@android:style/Widget.DeviceDefault.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/menhd"
+            android:textAlignment="viewStart"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.112"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.046" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="417dp"
+            android:layout_height="103dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintVertical_bias="0.143"
+            tools:ignore="MissingConstraints,UnknownId">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/w1" />
+
+            <LinearLayout
+                android:layout_width="292dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="317dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:text="@string/witem1"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="109dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/witem1pri"
+                    android:textAlignment="center"
+                    android:textColor="@color/price"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="431dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="3"
+                    android:text="@string/witem1ship"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/hding"
+                    android:textSize="14sp"
+                    android:translationX="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="449dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="417dp"
+            android:layout_height="103dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintVertical_bias="0.143"
+            tools:ignore="MissingConstraints,UnknownId">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/w2" />
+
+            <LinearLayout
+                android:layout_width="292dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="317dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:text="@string/witem2"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="109dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/witem2pri"
+                    android:textAlignment="center"
+                    android:textColor="@color/price"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="431dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="3"
+                    android:text="@string/witem2ship"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/hding"
+                    android:textSize="14sp"
+                    android:translationX="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="449dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="417dp"
+            android:layout_height="103dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintVertical_bias="0.143"
+            tools:ignore="MissingConstraints,UnknownId">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/w3" />
+
+            <LinearLayout
+                android:layout_width="292dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="317dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:text="@string/witem3"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="109dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/witem3pri"
+                    android:textAlignment="center"
+                    android:textColor="@color/price"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="431dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="3"
+                    android:text="@string/witem3ship"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/hding"
+                    android:textSize="14sp"
+                    android:translationX="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="449dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="417dp"
+            android:layout_height="103dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintVertical_bias="0.143"
+            tools:ignore="MissingConstraints,UnknownId">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/w4" />
+
+            <LinearLayout
+                android:layout_width="292dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="317dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:text="@string/witem4"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="109dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/witem4pri"
+                    android:textAlignment="center"
+                    android:textColor="@color/price"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="431dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="3"
+                    android:text="@string/witem4ship"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/hding"
+                    android:textSize="14sp"
+                    android:translationX="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="449dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="417dp"
+            android:layout_height="103dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintVertical_bias="0.143"
+            tools:ignore="MissingConstraints,UnknownId">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/w5" />
+
+            <LinearLayout
+                android:layout_width="292dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="317dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:text="@string/witem5"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="109dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/witem5pri"
+                    android:textAlignment="center"
+                    android:textColor="@color/price"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="431dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="3"
+                    android:text="@string/witem5ship"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/hding"
+                    android:textSize="14sp"
+                    android:translationX="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="449dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="417dp"
+            android:layout_height="103dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintVertical_bias="0.143"
+            tools:ignore="MissingConstraints,UnknownId">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/w6" />
+
+            <LinearLayout
+                android:layout_width="292dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="317dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:text="@string/witem6"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="109dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/witem6pri"
+                    android:textAlignment="center"
+                    android:textColor="@color/price"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="431dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="3"
+                    android:text="@string/witem6ship"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/hding"
+                    android:textSize="14sp"
+                    android:translationX="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="449dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout12"
+            android:layout_width="417dp"
+            android:layout_height="103dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintVertical_bias="0.143"
+            tools:ignore="MissingConstraints,UnknownId">
+
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/w7" />
+
+            <LinearLayout
+                android:layout_width="292dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="317dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:text="@string/witem7"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="109dp"
+                    tools:layout_editor_absoluteY="400dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/witem7pri"
+                    android:textAlignment="center"
+                    android:textColor="@color/price"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="431dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="3"
+                    android:text="@string/witem7ship"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/hding"
+                    android:textSize="14sp"
+                    android:translationX="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="449dp" />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
